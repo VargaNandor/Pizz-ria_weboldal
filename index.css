@@ -114,6 +114,7 @@ nav a:hover{
 
 .gomb {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
 }
