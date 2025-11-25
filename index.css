@@ -120,7 +120,7 @@ nav a:hover{
 }
 
 .gmb {
-    padding: 12px 28px;
+    padding: 20px 70px;
     border: 1px solid white;
     text-decoration: none;
     color: white;
@@ -131,4 +131,54 @@ nav a:hover{
 .gmb:hover {
     background: rgba(255, 255, 0, 0.658) ;
     color: rgb(255, 255, 255);
+}
+
+
+
+
+body {
+    background: #0E0E0E;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 120px;
+}
+
+.left, .middle, .right {
+    width: 30%;
+text-align: center;
+
+}
+
+h2, h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.hours p {
+    margin: 18px 0;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #aaaaaa;
+    margin-top: 80px;
+    padding-bottom: 40px;
+    line-height: 1.6;
 }
