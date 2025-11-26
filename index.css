@@ -136,21 +136,15 @@ nav a:hover{
 
 
 
-body {
-    background: #0E0E0E;
-    color: #FFFFFF;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
 .container {
     display: flex;
     justify-content: space-between;
+    justify-items: center;
     padding: 80px 120px;
 }
 
-.left, .middle, .right {
+.bal, .kozep, .jobb {
     width: 30%;
 text-align: center;
 
@@ -161,13 +155,13 @@ h2, h3 {
     letter-spacing: 1px;
 }
 
-.hours p {
+.nyitva p {
     margin: 18px 0;
     font-size: 15px;
     line-height: 1.4;
 }
 
-.btn {
+.gmb2 {
     display: inline-block;
     color: #fff;
     text-decoration: underline;
@@ -182,3 +176,68 @@ footer {
     padding-bottom: 40px;
     line-height: 1.6;
 }
+
+
+
+
+
+
+
+.container1 {
+    display: grid;
+    grid-template-areas:
+      "pizza1 pizza1 voros"
+      "gomba pizza2 voros"
+      "gomba pizza2 elo"
+      "blank blank elo";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 0.1fr;
+    gap: 10px;
+    padding: 5px;
+    height: 800px;
+
+
+    max-width: 1200px;   /* vagy amennyit szeretnél */
+    margin: 0 auto;      /* középre igazítás */
+    width: 100%;     
+
+
+  }
+  .container1 div {
+    padding: 10px;
+  }
+  .container1 div.pizza1 {
+    grid-area: pizza1;
+    height: 50vh;
+    width: 100vh;
+    background-image: url(/képek/pizzakep.jpg);
+    background-size: cover;
+    background-position: ;
+   
+  }
+  .container1 div.pizza2 {
+    grid-area: pizza2;
+    background-image: url(/képek/pizzakep4.jpg);
+    background-size: cover;
+   
+  }
+  .container1 div.voros {
+    grid-area: voros;
+    background-image: url(/képek/pizzakep2.jpg);
+    background-size: cover;
+    background-position: 50%;
+  }
+  .container1 div.blank {
+    grid-area: blank;
+  }
+  .container1 div.elo {
+    grid-area: elo;
+    background-image: url(/képek/pizzakep5.jpg);
+    background-size: cover;
+  }
+  .container1 div.gomba {
+    grid-area: gomba;
+    background-image: url(/képek/pizzakep3.jpg);
+    background-size: cover;
+    background-position: 65%;
+  }
