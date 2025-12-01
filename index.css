@@ -191,41 +191,46 @@ footer {
       "gomba pizza2 elo"
       "blank blank elo";
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr 1fr 1fr 0.1fr;
+    grid-template-rows: 1.5fr 0.3fr 0.7fr 0.1fr;
     gap: 10px;
     padding: 5px;
-    height: 800px;
+   /* height: 800px;*/
+    
+   
+}
 
 
-    max-width: 1200px;   /* vagy amennyit szeretnél */
-    margin: 0 auto;      /* középre igazítás */
-    width: 100%;     
-
-
-  }
+  
   .container1 div {
     padding: 10px;
+
+    display: flex;
+    justify-content: center;   /* vízszintesen középre */
+    align-items: flex-end;     /* alulra helyezés */
+    text-align: center;
   }
   .container1 div.pizza1 {
     grid-area: pizza1;
     height: 50vh;
-    width: 100vh;
+    /* width: 100vh; */
     background-image: url(/képek/pizzakep.jpg);
     background-size: cover;
-    background-position: ;
+
+
    
   }
   .container1 div.pizza2 {
     grid-area: pizza2;
     background-image: url(/képek/pizzakep4.jpg);
     background-size: cover;
+
    
   }
   .container1 div.voros {
     grid-area: voros;
     background-image: url(/képek/pizzakep2.jpg);
     background-size: cover;
-    background-position: 50%;
+
   }
   .container1 div.blank {
     grid-area: blank;
@@ -234,10 +239,26 @@ footer {
     grid-area: elo;
     background-image: url(/képek/pizzakep5.jpg);
     background-size: cover;
+    background-position: 100%;
+
   }
   .container1 div.gomba {
     grid-area: gomba;
     background-image: url(/képek/pizzakep3.jpg);
     background-size: cover;
-    background-position: 65%;
+
   }
+  #galleryflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;   /* <<< EZ KELL A KÖZÉPRE IGAZÍTÁSHOZ */
+
+  }
+
+.container1 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
