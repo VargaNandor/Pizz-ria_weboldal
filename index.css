@@ -322,3 +322,52 @@ footer {
 
     border-top: 1px solid #555;  
 }
+
+
+
+
+
+
+
+/* Hamburger alapból nem látszik */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* Checkbox elrejtése */
+#menu-toggle {
+    display: none;
+}
+
+/* ---- 80% szélességnél (kb. 960px) váltson ---- */
+@media (max-width: 960px) {
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: #111;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    nav a {
+        display: block;
+        padding: 12px 0;
+        font-size: 18px;
+    }
+
+    /* hamburger megjelenik */
+    .hamburger {
+        display: block;
+    }
+
+    /* ha be van pipálva → menü megjelenik */
+    #menu-toggle:checked ~ nav {
+        display: block;
+    }
+}
