@@ -154,27 +154,22 @@ nav a:hover{
    
 }
 
-
-
-.specialitasaink{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    background-color:#222222;
-    margin-bottom: 300px ;  
-}
-.specialitasaink h3{
-    font-size: 28px;
-        margin: auto;
-}
-.specialitasaink .szoveg{
-    padding-top: 60px;
+.spec {
     text-align: center;
+    padding: 40px 0;
 }
-.specialitasaink p{
-    font-size: 20px;}
+
+.spec h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.spec p {
+    color: #bbbbbb;
+    font-size: 14px;
+
+}
+
   
   .container1 div {
     padding: 10px;
