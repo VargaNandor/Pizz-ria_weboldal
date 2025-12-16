@@ -73,6 +73,8 @@ nav a:hover{
 .rolunk .tört {
     color: #b3b3b3;
     margin-bottom: 2%;
+    text-align: right;
+    width: 16vw;
 }
 
 .rolunk p {
@@ -248,7 +250,7 @@ nav a:hover{
     opacity: 0;
     transition: 0.3s;
 }
-
+/* ================== PLUSZ MUNKA ================== */
 .container1 div:hover::after {
     opacity: 1;
 }
