@@ -253,6 +253,9 @@ nav a:hover{
     opacity: 1;
 }
 
+.container1 div.blank::after {
+    display: none !important;
+}
 
 
 /* ================== NYITVATARTÁS ================== */
