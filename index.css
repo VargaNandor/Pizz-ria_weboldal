@@ -45,7 +45,7 @@ header nav a {
     color: white;
     font-size: 14px;
     text-decoration: none;
-    padding: 0 12px;       /* 🔧 % helyett fix */
+    padding: 0 12px;       
 }
 
 nav a:hover{
@@ -261,9 +261,7 @@ nav a:hover{
     opacity: 1;
 }
 
-.container1 div.blank::after {
-    display: none !important;
-}
+
 
 /* ================== NYITVATARTÁS ================== */
 .container {
