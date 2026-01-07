@@ -324,6 +324,20 @@ footer {
     font-size: 30px;
     cursor: pointer;
 }
+
+
+
+
+@media (max-width: 1110px) {
+    .rolunk {
+        padding: 5%;
+    }
+}
+
+
+
+
+
 @media (max-width: 768px) {
 
     header {
@@ -358,5 +372,8 @@ footer {
     /* ha be van pipálva a checkbox → menü megjelenik */
     #menu-toggle:checked + .hamburger + nav {
         display: flex;
+    }
+    .perek{
+        display: none;
     }
 }
