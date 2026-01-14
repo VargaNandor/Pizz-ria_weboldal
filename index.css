@@ -463,10 +463,7 @@ footer {
         width: 100%;
     }
     
-    /* SZERETETTEL VÁRUNK – maradhat középen */
-    .container .bal h2 {
-        text-align: center;
-    }
+
     
     /* NYITVA – balra */
     .container .kozep h3 {
@@ -510,6 +507,9 @@ footer {
         line-height: 1.6;
         text-align: center;
     }
-    
+    .bal br{
+        display: none;
+        text-align: right;
+    }
 }
 
