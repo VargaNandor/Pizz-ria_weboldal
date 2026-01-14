@@ -429,5 +429,87 @@ footer {
         font-size: 18px;
         margin-top: 20px;
     }
+
+    .menu p {
+        max-width: 100%;
+    }
+    
+    .gomb {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .gmb {
+        width: 100%;
+        max-width: 300px;
+        padding: 15px 0;
+        font-size: 16px;
+        text-align: center;
+    }
+
+
+
+
+    .container {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 40px;
+    }
+    
+    .container .bal,
+    .container .kozep,
+    .container .jobb {
+        width: 100%;
+    }
+    
+    /* SZERETETTEL VÁRUNK – maradhat középen */
+    .container .bal h2 {
+        text-align: center;
+    }
+    
+    /* NYITVA – balra */
+    .container .kozep h3 {
+        text-align: left;
+    }
+    
+    /* NYITVATARTÁS lista */
+    .nyitva p {
+        padding: 12px 0;
+        font-size: 14px;
+    }
+    
+    /* PRÓBÁLD KI – BALRA, mint a képen */
+    .container .jobb h3 {
+        text-align: left;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .container .jobb p {
+        text-align: left;
+        line-height: 1.6;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    /* Foglalás link – balra */
+    .gmb2 {
+        display: inline-block;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+
+    
+    /* FOOTER mobil */
+    footer {
+        width: 100%;
+        padding: 20px;
+        font-size: 11px;
+        line-height: 1.6;
+        text-align: center;
+    }
+    
 }
 
